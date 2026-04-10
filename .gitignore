@@ -1,0 +1,33 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Gerados pelo build_runner — nunca commitar
+*.g.dart
+*.freezed.dart
+
+# Firebase — NUNCA commitar google-services.json em repositório público
+# Adicione ao seu .gitignore pessoal se o repo for privado e você confiar no acesso
+# google-services.json
+# GoogleService-Info.plist
+# firebase_options.dart   # gerado pelo flutterfire configure — contém IDs públicos (ok commitar)
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Android
+android/local.properties
+android/.gradle/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
